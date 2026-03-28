@@ -1,0 +1,19 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^gradle -h$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^\\./gradlew build$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "/media/sdb1/rego/MCreatorWorkspaces/coder_rpg/.devbox/nix/profile/default/lib/openjdk",
+            "default": true
+        },
+    ],
+}
